@@ -10,9 +10,9 @@ a {
 	text-decoration: none;
 }
 
-header {
-	display: inline;
-}
+
 nav {
 	position: sticky;
+	top: 0;
+	background-color: transparent;
 }
