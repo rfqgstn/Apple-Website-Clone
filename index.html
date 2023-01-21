@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Apple</title>
+	<link rel="icon" type="image/x-icon" href="/img/apple-logo-white.png">
+	<link rel="stylesheet" href="w3.css">
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<!-- Banner -->
+		<img src="img/apple-banner.png" alt="apple banner" width="100%" height="100%">
+		<!-- Navbar -->
+		<div class="w3-bar w3-grey" >
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white apple-icon" onclick="openMenu('Home')"><img src="img/apple-logo.png" onmouseover="newImage(this)" onmouseout="oldImage(this)" alt="apple logo" width="20px"></button>	
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('Mac')">Mac</button>
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('iPad')">iPad</button>
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('iPhone')">iPhone</button>
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('Watch')">Watch</button>
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('Product')">Product</button>
+			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('About')">About</button>
+		</div>
+	</header>
+	<!-- end Header -->
+
+	<!-- Main -->
+	<main>
+		<!-- Home -->
+		<div id="Home" class="apple" style="display: block;">
+			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+		</div>
+
+		<!-- Mac -->
+		<div id="Mac" class="apple" style="display: none;">
+			<img src="img/apple-logo.png" alt="" width="100%" height="300px">
+		</div>
+
+		<!-- iPad -->
+		<div id="iPad" class="apple" style="display: none;">
+			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+		</div>
+
+		<!-- iPhone -->
+		<div id="iPhone" class="apple" style="display: none;">
+			<img src="img/apple-logo.png" alt="" width="100%" height="300px">
+		</div>
+
+		<!-- Watch -->
+		<div id="Watch" class="apple" style="display: none;">
+			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+		</div>
+
+		<!-- Product -->
+		<div id="Product" class="apple" style="display: none;">
+			<img src="img/apple-logo.png" alt="" width="100%" height="300px">
+		</div>
+
+		<!-- About -->
+		<div id="About" class="apple" style="display: none;">
+			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+		</div>
+	</main>
+	<!-- endMain -->
+
+	<script src="app.js"></script>
+</body>
+</html>
