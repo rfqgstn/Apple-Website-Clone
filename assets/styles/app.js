@@ -7,9 +7,9 @@ function openMenu(name) {
 	document.getElementById(name).style.display = "block"; 
 }
 function newImage(e){
-	e.src = "img/apple-logo-white.png"
+	e.src = "assets/img/apple-logo-white.png"
 }
 
 function oldImage(e){
-	e.src = "img/apple-logo.png"
+	e.src = "assets/img/apple-logo.png"
 }

@@ -4,66 +4,159 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Apple</title>
-	<link rel="icon" type="image/x-icon" href="/img/apple-logo-white.png">
-	<link rel="stylesheet" href="w3.css">
+	<link rel="icon" type="image/x-icon" href="assets/img/apple-logo-white.png">
+	<link rel="stylesheet" href="assets/styles/w3.css">
+	<link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
 	<!-- Header -->
 	<header>
 		<!-- Banner -->
-		<img src="img/apple-banner.png" alt="apple banner" width="100%" height="100%">
+		<img src="assets/img/apple-banner.png" alt="apple banner" width="100%" height="100%">
 		<!-- Navbar -->
-		<div class="w3-bar w3-grey" >
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white apple-icon" onclick="openMenu('Home')"><img src="img/apple-logo.png" onmouseover="newImage(this)" onmouseout="oldImage(this)" alt="apple logo" width="20px"></button>	
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('Mac')">Mac</button>
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('iPad')">iPad</button>
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('iPhone')">iPhone</button>
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('Watch')">Watch</button>
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('Product')">Product</button>
-			<button class="w3-bar-item w3-button w3-grey w3-hover-black w3-hover-text-white" onclick="openMenu('About')">About</button>
-		</div>
+		<nav>
+			<div class="w3-bar w3-grey" >
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white apple-icon" onclick="openMenu('Home')"><img src="assets/img/apple-logo.png" onmouseover="newImage(this)" onmouseout="oldImage(this)" alt="apple logo" width="20px"></button>	
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white" onclick="openMenu('Mac')">Mac</button>
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white" onclick="openMenu('iPad')">iPad</button>
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white" onclick="openMenu('iPhone')">iPhone</button>
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white" onclick="openMenu('Watch')">Watch</button>
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white" onclick="openMenu('Product')">Product</button>
+				<button class="w3-bar-item w3-button w3-grey  w3-hover-text-white" onclick="openMenu('About')">About</button>
+			</div>
+		</nav>
 	</header>
 	<!-- end Header -->
 
 	<!-- Main -->
 	<main>
 		<!-- Home -->
+
+		<!-- Introducing the new MacBook Pro and Mac mini. -->
 		<div id="Home" class="apple" style="display: block;">
-			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+			<div class="w3-display-container w3-black" style="height: 500px;">
+				<div class="w3-display-middle w3-center">
+					<h1 style="font-size: 50px;"><b>Introducing the new <br>MacBook Pro and Mac mini.</b></h1>
+					<br>
+					<div class="w3-button w3-hover-white w3-round-xxlarge w3-border w3-border-white" >
+						<a href="https://www.youtube.com/watch?v=6Ij9PiehENA" target="_blank">Watch the announcement</a>
+					</div>
+				</div>
+			</div>
+			<!-- end -->
+
+			<!-- Mackbook pro 14 16 -->
+			<div class="w3-display-container w3-black" style="height: 560px;">
+				<div class="w3-display-topmiddle w3-center">
+					<h1><a href="https://www.apple.com/macbook-pro-14-and-16/" target="_blank"><b>MackBook Pro</b></a></h1>
+					<h2><a href="https://www.apple.com/macbook-pro-14-and-16/" target="_blank">Supercharged by M2 Pro and M2 Max.</a></h2>
+					<h3 style="color: grey;"><a href="https://www.apple.com/macbook-pro-14-and-16/" target="_blank">Available starting 1.24</a></h3>
+					<h3 style="color: blue; display: inline;"><a href="https://www.apple.com/macbook-pro-14-and-16/" target="_blank">Learn more ></a></h3>
+					<h3 style="color: blue; display: inline;"><a href="https://www.apple.com/shop/buy-mac/macbook-pro/14-inch  " target="_blank">Order now ></a></h3>
+				</div>
+				<div class="w3-display-bottommiddle w3-center">
+					<a href="https://www.apple.com/macbook-pro-14-and-16/" target="_blank"><img src="assets/img/mackbookpro1416.jpg" alt="mackbookpro1416"></a>
+				</div>
+			</div>
+			<!-- end -->
+
+			<!-- Mac Mini -->
+			<div class="w3-display-container w3-black" style="height: 550px; margin-top: 10px;">
+				<div class="w3-display-topmiddle w3-center">
+					<h1><a href="https://www.apple.com/mac-mini/" target="_blank"><b>Mack mini</b></a></h1>
+					<h2><a href="https://www.apple.com/mac-mini/" target="_blank">Supercharged by M2 Pro and M2 Max.</a></h2>
+					<h3 style="color: grey;"><a href="https://www.apple.com/mac-mini/" target="_blank">Available starting 1.24</a></h3>
+					<h3 style="color: blue; display: inline;"><a href="https://www.apple.com/mac-mini/" target="_blank">Learn more ></a></h3>
+					<h3 style="color: blue; display: inline;"><a href="https://www.apple.com/shop/buy-mac/mac-mini" target="_blank">Order now ></a></h3>
+				</div>
+				<div class="w3-display-bottommiddle w3-center">
+					<a href="https://www.apple.com/mac-mini/" target="_blank"><img src="assets/img/mac-mini.jpg" alt="macmini"></a>
+				</div>
+			</div>
+			<!-- end -->
+
+			<!-- Homepod -->
+			<div class="w3-display-container w3-black" style="height: 550px; margin-top: 10px;">
+				<div class="w3-display-topmiddle w3-center">
+					<h1><a href="https://www.apple.com/homepod-2nd-generation/" target="_blank"><b>HomPod</b></a></h1>
+					<h2><a href="https://www.apple.com/homepod-2nd-generation/" target="_blank">Profound sound.</a></h2>
+					<h3 style="color: grey;"><a href="https://www.apple.com/homepod-2nd-generation/" target="_blank">Available starting 2.3</a></h3>
+					<h3 style="color: blue; display: inline;"><a href="https://www.apple.com/homepod-2nd-generation/" target="_blank">Learn more ></a></h3>
+					<h3 style="color: blue; display: inline;"><a href="https://www.apple.com/shop/buy-homepod/homepod" target="_blank">Order now ></a></h3>
+				</div>
+				<div class="w3-display-bottommiddle w3-center">
+					<a href="https://www.apple.com/mac-mini/https://www.apple.com/homepod-2nd-generation/" target="_blank"><img src="assets/img/hompod.jpg" alt="macmini"></a>
+				</div>
+			</div>
+			<!-- end -->
+
+			<!-- layout -->
+			<div class="w3-cell-row" style="padding-top: 10px;">
+				<div class="w3-container w3-cell w3-mobile">
+					<a href="https://www.apple.com/watch/"><img src="assets/img/1.jpg" alt="1"></a>
+				</div>
+				<div class="w3-container w3-cell w3-mobile">
+					<a href="https://www.apple.com/apple-watch-series-8/"><img src="assets/img/2.jpg" alt="2"></a>
+				</div>
+			</div>
+			<div class="w3-cell-row" style="padding-top: 10px;">
+				<div class="w3-container w3-cell w3-mobile">
+					<a href="https://www.apple.com/iphone-14-pro/"><img src="assets/img/3.jpg" alt="3"></a>
+				</div>
+				<div class="w3-container w3-cell w3-mobile">
+					<a href="https://www.apple.com/iphone-14/"><img src="assets/img/4.jpg" alt="4"></a>
+				</div>
+			</div>
+			<div class="w3-cell-row" style="padding-top: 10px;">
+				<div class="w3-container w3-cell w3-mobile">
+					<a href="https://www.apple.com/shop/gifts/chinese-new-year"><img src="assets/img/5.jpg" alt="5"></a>
+				</div>
+				<div class="w3-container w3-cell w3-mobile">
+					<a href="https://www.apple.com/apple-card/"><img src="assets/img/6.jpg" alt="6"></a>
+				</div>
+			</div>
+			<!-- end -->
 		</div>
 
 		<!-- Mac -->
 		<div id="Mac" class="apple" style="display: none;">
-			<img src="img/apple-logo.png" alt="" width="100%" height="300px">
+			<img src="assets/img/apple-logo.png" alt="" width="100%" height="300px">
 		</div>
 
 		<!-- iPad -->
 		<div id="iPad" class="apple" style="display: none;">
-			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+			<img src="assets/img/apple-banner.png" alt="" width="100%" height="300px">
 		</div>
 
 		<!-- iPhone -->
 		<div id="iPhone" class="apple" style="display: none;">
-			<img src="img/apple-logo.png" alt="" width="100%" height="300px">
+			<img src="assets/img/apple-logo.png" alt="" width="100%" height="300px">
 		</div>
 
 		<!-- Watch -->
 		<div id="Watch" class="apple" style="display: none;">
-			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+			<img src="assets/img/apple-banner.png" alt="" width="100%" height="300px">
 		</div>
 
 		<!-- Product -->
 		<div id="Product" class="apple" style="display: none;">
-			<img src="img/apple-logo.png" alt="" width="100%" height="300px">
+			<img src="assets/img/apple-logo.png" alt="" width="100%" height="300px">
 		</div>
 
 		<!-- About -->
 		<div id="About" class="apple" style="display: none;">
-			<img src="img/apple-banner.png" alt="" width="100%" height="300px">
+			<img src="assets/img/apple-banner.png" alt="" width="100%" height="300px">
 		</div>
 	</main>
 	<!-- endMain -->
 
-	<script src="app.js"></script>
+	<!-- footer -->
+	<footer>
+		<div class="w3-container w3-center" style="width: 100%; height: 50px;">
+			<p>Apple Copyright</p>
+		</div>
+	</footer>
+	<!-- endfooter -->
+	<script src="assets/styles/app.js"></script>
 </body>
 </html>
